@@ -1,0 +1,51 @@
+@import '../../mixins';
+@import '../../variables';
+
+.btn {
+  background-color: $main-color;
+  color: $color-white;
+  border: 2px solid $main-color;
+  transition: $transition;
+  border-radius: $border-radius-primary;
+  text-transform: uppercase;
+  box-shadow: $main-box-shadow;
+  padding: $main-padding;
+  &:hover, &:active {
+    background-color: transparent;
+    color: $main-color;
+    border: 2px solid $main-color;
+  }
+}
+
+.seeMore {
+  margin-top: 2rem;
+  background-color: $load-color;
+  color: $color-white;
+  font-size: 18px;
+  text-transform: capitalize;
+  border: 2px solid $load-color;
+  border-radius: calc($border-radius-secondary * 2);
+  padding: 8px 20px 8px 27px;
+  transition: $transition;
+  &:hover, &:active {
+    background-color: transparent;
+    color: $load-color;
+  }
+}
+
+.btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 200px;
+  text-transform: capitalize;
+  border-radius: calc($border-radius-primary / 2);
+  background-color: $github;
+  border-color: $github;
+  &:hover, &:active {
+    background-color: transparent;
+    color: $color-white;
+    border-color: $color-white;
+  }
+}

@@ -1,0 +1,44 @@
+@import '../../mixins';
+@import '../../variables';
+
+.contact {
+  background: url('../../assets/images/bg3.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .section-title {
+    color: $color-white;
+  }
+  .social-media {
+    margin-bottom: 0;
+    font-size: 35px;
+    border-radius: $border-radius-primary;
+  }
+}
+
+footer {
+  color: $color-white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'ProstoOne';
+  margin-top: 2rem;
+}
+
+
+
+/* ========================= Media Query ========================= */
+@media (max-width: 768px) {
+  .overlay {
+    .form {
+      width: 100%;
+    }
+    .social-media {
+      align-self: flex-end;
+    }
+  }
+}

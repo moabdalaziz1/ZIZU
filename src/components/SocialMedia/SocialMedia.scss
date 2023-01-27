@@ -1,0 +1,41 @@
+@import '../../mixins';
+@import '../../variables';
+
+.social-media {
+  background-color: $color-white;
+  font-size: 35px;
+  padding: 0.2rem 0.8rem;
+  margin-block: 1rem;
+  @include radius-style;
+}
+
+.github {
+  color: $github;
+  &:hover {
+    color: $github;
+  }
+}
+.twitter {
+  color: $twitter;
+  &:hover {
+    color: $twitter;
+  }
+}
+.linkedIn {
+  color: $linkedIn;
+  &:hover {
+    color: $linkedIn;
+  }
+}
+.facebook {
+  color: $facebook;
+  &:hover {
+    color: $facebook;
+  }
+}
+.instagram {
+  color: $instagram;
+  &:hover {
+    color: $instagram;
+  }
+}

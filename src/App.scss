@@ -1,0 +1,43 @@
+@import './variables';
+
+@font-face {
+  src: url('./assets/fonts/Poppins-Medium.ttf');
+  font-family: 'Poppins';
+}
+@font-face {
+  src: url('./assets/fonts/Lobster-Regular.ttf');
+  font-family: 'Lobster';
+}
+@font-face {
+  src: url('./assets/fonts/ProstoOne-Regular.ttf');
+  font-family: 'ProstoOne';
+}
+@font-face {
+  src: url('./assets/fonts/Righteous-Regular.ttf');
+  font-family: 'Righteous';
+}
+
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: $color-bg;
+  color: $color-black;
+  text-transform: capitalize;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: $main-color;
+  z-index: 100;
+}

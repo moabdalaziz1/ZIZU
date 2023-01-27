@@ -1,0 +1,71 @@
+@import '../../variables';
+@import '../../mixins';
+
+.project {
+  border: none;
+  border-radius: $border-radius-secondary;
+  box-shadow: $main-box-shadow;
+  padding: 0;
+}
+.project-name {
+  font-family: 'Righteous';
+  font-size: 26px;
+  border-top-left-radius: $border-radius-secondary;
+  border-top-right-radius: $border-radius-secondary;
+}
+.project-img {
+  box-shadow: $projectImg-box-shadow;
+  transition: $transition;
+  height: 100%;
+  &:hover, &:active, &:focus {
+    opacity: 0.7;
+  }
+}
+.project-skills {
+  background-color: $color-bg;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .skills-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    span {
+      font-family: 'Righteous';
+      font-size: 15px;
+      font-style: italic; 
+      background-color: $color-white;
+      box-shadow: $second-box-shadow;
+      @include radius-style;
+      padding: 5px 8px; 
+    }
+  }
+}
+.project-btns {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+/* ========================= Media Query ========================= */
+@media (max-width: 415px) {
+  .project-name {
+    font-size: 24px;
+  }
+  .project-skills {
+    h5 {
+      font-size: 1.25rem;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+  .project-btns {
+    gap: 15px;
+  }
+}

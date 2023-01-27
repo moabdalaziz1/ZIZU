@@ -1,0 +1,31 @@
+@import '../../variables';
+@import '../../mixins';
+
+.navbar {
+  transition: $transition;
+}
+/* For Changing The Navbar Styles When The scrollbar passes 200px */
+.noTransparrent {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: $main-box-shadow;
+    a.nav-link {
+      color: $main-color;
+      &:hover, &.active {
+        background-color: $main-color;
+        color: $color-white;
+      }
+    }
+}
+
+
+/* ========================= Media Query ========================= */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-left: 0;
+  }
+}
+
+
+
+
+

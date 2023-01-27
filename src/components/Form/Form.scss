@@ -1,0 +1,63 @@
+@import '../../mixins';
+@import '../../variables';
+
+.form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  .form-group {
+    position: relative;
+  }
+  .form-icon {
+    color: $github;
+    font-size: 22px;
+    position: absolute;
+    left: 10px;
+    top: 1rem;
+  }
+  input, textarea {
+    font-weight: bold;
+    transition: $transition;
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    padding: 1rem 2.5rem;
+    &:focus {
+      box-shadow: none;
+    }
+    &::placeholder {
+      font-weight: normal;
+    }
+  }
+}
+
+.submit-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.form-icon.error, div.error {
+  color: red;
+  text-align: start;
+}
+
+.submitted {
+  background-color: $color-white;
+  color: green;
+  font-size: 18px;
+  padding: 0rem 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  @include radius-style;
+  .submit-icon {
+    font-size: 25px;
+  }
+}
+
+.spinner-border {
+  width: 25px;
+  height: 25px;
+}

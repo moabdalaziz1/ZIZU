@@ -1,0 +1,17 @@
+@import '../../variables';
+@import '../../mixins';
+
+.nav-item {
+  .nav-link {
+    color: $color-white;
+    font-size: $main-font-size;
+    line-height: 60px;
+    padding: 0.5rem 1.5rem !important;
+    transition: $transition;
+    @include radius-style;
+    &:hover, &.active {
+      color: $main-color;
+      background-color: $color-white;
+    }
+  }
+}

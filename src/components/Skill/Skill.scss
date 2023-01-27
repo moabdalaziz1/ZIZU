@@ -1,0 +1,33 @@
+@import '../../variables';
+@import '../../mixins';
+
+.skill {
+  background-color: $color-white;
+  padding: $main-padding  ;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: $main-box-shadow;
+  text-transform: none;
+  @include radius-style;
+
+}
+
+.skill-icon {font-size: 32px}
+
+.html {color: $html}
+.css {color: $css}
+.javascript {color: $javascript}
+.sass {color: $sass}
+.bootstrap {color: $bootstrap}
+.webpack {color: $webpack}
+.react {color: $react}
+
+/* ========================= Media Query ========================= */
+@media (max-width: 575px) {
+  .skill {
+    font-size: 17px;
+  }
+  .skill-icon {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,58 @@
+@import '../../variables';
+@import '../../mixins';
+
+
+/* For The Sidebar Functionality */
+.hide { top: -250px } .show { top: 0px }
+
+.sidebar-hero {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  /* The Buttons Styles */
+  .navbar-toggler {
+    border: none;
+    transition: $transition;
+    height: 0;
+    &:hover {
+      transform: scale(1.2, 1.2);
+    }
+    &:focus {
+      box-shadow: none;
+    }
+    .collapse-icon {
+      background-color: $color-white;
+      color: $color-black;
+      font-size: 30px;
+      box-shadow: $main-box-shadow;
+      padding: 0.5rem;
+      line-height: 60px;
+      @include radius-style;
+    }
+  }
+  /* The Sidebar Styles */
+  .sidebar {
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    .navbar-nav {
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: rgba(255, 255, 255, 0.7);
+      box-shadow: $main-box-shadow;
+      @include radius-style;
+      .nav-link {
+        color: $color-black;
+        font-size: $main-font-size;
+        line-height: 40px;
+        padding: $main-padding;
+        transition: $transition;
+        @include radius-style;
+        &:hover, &.active {
+          color: $color-white;
+          background-color: $main-color;
+        }
+      }
+    }
+  }
+}
