@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.scss';
-import { Navbar } from './components/index';
+import { UpButton, Navbar } from './components/index';
 import { Header, Certificates,Skills, Portfolio, Contact } from './sections/index';
 import { motion, useScroll, useSpring } from "framer-motion";
 
@@ -32,6 +32,7 @@ const App = () => {
     <>
       <motion.div className="progress-bar" style={{ scaleX }} />
       <div className='text-center'>
+        <UpButton />
         <Navbar />
         <Header />
         <Certificates currentItems={next.certificates} handleCertificates={handleCertificates} />

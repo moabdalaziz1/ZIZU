@@ -15,3 +15,4 @@ export { default as SocialMedia } from './SocialMedia/SocialMedia';
 export { default as MainButton } from './Buttons/Buttons';
 export { Submit } from './Buttons/Buttons';
 export { LoadButton } from './Buttons/Buttons';
+export { default as UpButton } from './UpButton/UpButton';

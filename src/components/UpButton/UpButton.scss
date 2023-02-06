@@ -1,0 +1,29 @@
+@import '../../variables';
+@import '../../mixins';
+
+
+.up {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 2000;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: $border-radius-primary;
+  background-color: $main-color;
+  color: $color-white;
+  box-shadow: $main-box-shadow;
+  transition: $transition;
+  transition-duration: 0.6s;
+  cursor: pointer;
+}
+
+.hide-btn {
+  transform: scale(0) rotate(-360deg);
+}
+.show-btn {
+  transform: scale(1) rotate(360deg);
+}
