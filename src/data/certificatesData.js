@@ -1,8 +1,10 @@
 import coursera from '../assets/images/certificates/coursera-logo.png'
 import hsoub from '../assets/images/certificates/hsoub-logo.png'
+
 import hsoubCertificate from '../assets/images/certificates/hsoub.png'
 import reactBasics from '../assets/images/certificates/react-basics.png'
 import advancedReact from '../assets/images/certificates/advaned-react.png'
+import versionControl from '../assets/images/certificates/version-control.png'
 
 const certificateData = [
   {
@@ -18,9 +20,9 @@ const certificateData = [
   {
     id: 2,
     logo: coursera,
-    url: 'https://www.coursera.org/account/accomplishments/verify/JQ9Z4T66CGSM',
+    url: 'https://www.coursera.org/account/accomplishments/certificate/JQ9Z4T66CGSM',
     title: 'react basics',
-    provider: 'coursera',
+    provider: 'coursera | meta',
     issued: 'January 2023',
     certificationID: 'JQ9Z4T66CGSM',
     certificateImg: reactBasics,
@@ -28,12 +30,22 @@ const certificateData = [
   {
     id: 3,
     logo: coursera,
-    url: 'https://www.coursera.org/account/accomplishments/verify/CT6U2TGP6RUV',
+    url: 'https://www.coursera.org/account/accomplishments/certificate/CT6U2TGP6RUV',
     title: 'advanced react',
-    provider: 'coursera',
+    provider: 'coursera | meta',
     issued: 'January 2023',
     certificationID: 'CT6U2TGP6RUV',
     certificateImg: advancedReact,
+  },
+  {
+    id: 4,
+    logo: coursera,
+    url: 'https://www.coursera.org/account/accomplishments/certificate/8QTNHSP2ZDSS',
+    title: 'version control',
+    provider: 'coursera | meta',
+    issued: 'February 2023',
+    certificationID: '8QTNHSP2ZDSS',
+    certificateImg: versionControl,
   },
 ];
 

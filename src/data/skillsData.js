@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3, FaSass, FaBootstrap, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaCss3, FaSass, FaBootstrap, FaReact, FaGitAlt } from 'react-icons/fa';
 import { SiJavascript , SiWebpack} from 'react-icons/si';
 
 
@@ -44,6 +44,12 @@ const skills = [
     skill: 'React.js',
     colorClass: 'react',
     skillIcon: <FaReact />,
+  },
+  {
+    id: 8,
+    skill: 'Git',
+    colorClass: 'git',
+    skillIcon: <FaGitAlt />,
   },
 ];
 
