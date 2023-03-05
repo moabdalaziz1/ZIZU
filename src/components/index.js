@@ -9,6 +9,7 @@ export { default as ListItem } from './ListItem/ListItem';
 export { default as SectionTitle } from './SectionTitle/SectionTitle';
 export { default as Skill } from './Skill/Skill';
 export { default as Project } from './Project/Project';
+export { default as ProjectEye } from './ProjectEye/ProjectEye';
 export { default as Form } from './Form/Form';
 
 export { default as SocialMedia } from './SocialMedia/SocialMedia';

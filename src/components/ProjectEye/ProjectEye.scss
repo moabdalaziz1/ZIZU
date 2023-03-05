@@ -1,0 +1,18 @@
+@import '../../variables';
+@import '../../mixins';
+
+.project-eye {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-white;
+  transition: $transition;
+  opacity: 0;
+  &:hover, &:active, &:focus {
+    opacity: 1;
+  }
+}

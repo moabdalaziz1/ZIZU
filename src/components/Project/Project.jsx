@@ -1,5 +1,5 @@
 import './Project.scss';
-import { MainButton } from '../../components/index';
+import { MainButton, ProjectEye } from '../../components/index';
 
 const Project = ({ item }) => {
 
@@ -13,7 +13,9 @@ const Project = ({ item }) => {
           href={item.pageLink} 
           target='_blank'
           rel="noreferrer"
+          className='project-img-link'
         >
+          <ProjectEye />
           <img src={item.coverImg} className='card-img-top project-img' alt={item.title} />
         </a>  
         <div className="project-skills p-3">
@@ -28,7 +30,7 @@ const Project = ({ item }) => {
         </div>
         <div className="project-btns p-3">
           <MainButton btnLink={item.pageLink}>
-            demo
+            live demo
           </MainButton>
           <MainButton btnLink={item.githubRepoLink}>
             github repo
