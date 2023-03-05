@@ -49,8 +49,9 @@ const Navbar = () => {
       e.target.classList.add('active');
     }
     // Scrolling To The Section That Related To The Clicked Nav Item!
+    let heightDiscount = window.innerWidth >= 768 ? 88 : 0
     window.scrollBy({
-      top: targetSection.getBoundingClientRect().y - 89,
+      top: targetSection.getBoundingClientRect().y - heightDiscount,
       behavior: 'smooth',
     });
   }

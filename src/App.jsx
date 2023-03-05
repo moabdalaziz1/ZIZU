@@ -3,6 +3,7 @@ import './App.scss';
 import { UpButton, Navbar } from './components/index';
 import { Header, Certificates,Skills, Portfolio, Contact } from './sections/index';
 import { motion, useScroll, useSpring } from "framer-motion";
+import { LoadMoreContext } from './Contexts/LoadMoreContext';
 
 const App = () => {
 
@@ -13,32 +14,25 @@ const App = () => {
     restDelta: 0.001
   });
 
-  const projectsPerRow = 3
-  const certificatesPerRow = 2
+  // For LoadMore Functionality Using (useContext)
   const [next, setNext] = useState({
-    certificates: certificatesPerRow,
-    projects: projectsPerRow,
+    certificates: 2,
+    projects: 3,
   });
-  const handleCertificates = () => setNext(prevState => ({
-    ...prevState,
-    certificates: prevState.certificates + certificatesPerRow,
-  }));
-  const handleProjects = () => setNext(prevState => ({
-    ...prevState,
-    projects: prevState.projects + projectsPerRow,
-  }));
 
   return (
     <>
       <motion.div className="progress-bar" style={{ scaleX }} />
       <div className='text-center'>
         <UpButton />
-        <Navbar />
-        <Header />
-        <Certificates currentItems={next.certificates} handleCertificates={handleCertificates} />
-        <Skills />
-        <Portfolio currentItems={next.projects} handleProjects={handleProjects} />
-        <Contact />
+        <LoadMoreContext.Provider value={{next, setNext}}>
+          <Navbar />
+          <Header />
+          <Certificates />
+          <Skills />
+          <Portfolio />
+          <Contact />
+        </LoadMoreContext.Provider>
       </div>
     </>
   )
