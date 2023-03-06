@@ -3,16 +3,22 @@
 
 .skill {
   background-color: $color-white;
-  padding: $main-padding  ;
+  height: 50px;
+  padding: 0 1.5rem; 
   font-size: 20px;
   font-weight: bold;
   box-shadow: $main-box-shadow;
   text-transform: none;
+  display: flex;
+  align-items: center;
   @include radius-style;
 
 }
 
-.skill-icon {font-size: 32px}
+.skill-icon {
+  display: flex;
+  font-size: 30px
+}
 
 .html {color: $html}
 .css {color: $css}
