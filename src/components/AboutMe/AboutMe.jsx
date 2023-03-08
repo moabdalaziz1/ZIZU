@@ -1,36 +1,17 @@
 import './AboutMe.scss';
 import { SocialMedia } from '../index';
 import Typewriter from 'typewriter-effect';
-import { motion, useAnimation } from 'framer-motion';
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
+import { motion } from 'framer-motion';
 
 const AboutMe = () => {
 
   let myExperience = new Date().getFullYear() - 2021;
 
-  const elementVariant = {
-    visible: {scale: 1, transition: {duration: 2, type: 'spring', bounce: 0.2}},
-    hidden: {scale: 0, transition: {duration: 2, type: 'spring', bounce: 0.2}}
-  }
-
-  const control = useAnimation();
-  const [ref, inView] = useInView();
-
-  useEffect(() => {
-    if (inView) {
-      control.start('visible')
-    } else {
-      control.start('hidden')
-    }
-  }, [control, inView])
-
   return (
     <motion.div
-      ref={ref}
-      variants={elementVariant}
-      initial='hidden'
-      animate={control}
+      initial={{ opacity: 0, y: '-200px' }}
+      whileInView={{ opacity: 1, y: '0' }}
+      transition={{ duration: 1 }}
       className='about-me'
     >
       <div className='my-photo'></div>
