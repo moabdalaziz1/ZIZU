@@ -17,3 +17,5 @@ export { default as MainButton } from './Buttons/Buttons';
 export { Submit } from './Buttons/Buttons';
 export { LoadButton } from './Buttons/Buttons';
 export { default as UpButton } from './UpButton/UpButton';
+
+export { default as Loader } from './Loader/Loader';

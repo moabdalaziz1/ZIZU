@@ -1,14 +1,19 @@
 import './Project.scss';
 import { MainButton, ProjectEye } from '../../components/index';
 import { motion } from 'framer-motion';
+import { AnimateContext } from '../../Contexts/LoadMoreContext';
+import { useContext } from 'react';
 
 const Project = ({ item }) => {
 
+  const { initialSecondary, whileInView, transition } = useContext(AnimateContext);
+
+
   return (
     <motion.div
-      initial={{ opacity: 0, y: '200px' }}
-      whileInView={{ opacity: 1, y: '0' }}
-      transition={{ duration: 1 }}
+      initial={initialSecondary}
+      whileInView={whileInView}
+      transition={transition}
       className="col-lg-4 col-sm-6"
     >
       <div className="project">

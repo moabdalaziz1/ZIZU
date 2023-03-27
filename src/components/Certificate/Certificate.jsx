@@ -2,14 +2,18 @@ import './Certificate.scss';
 import { MainButton } from '../../components/index';
 import { BiLinkExternal } from 'react-icons/bi';
 import { motion } from 'framer-motion';
+import { AnimateContext } from '../../Contexts/LoadMoreContext';
+import { useContext } from 'react';
 
 const Certificate = ({ item }) => {
 
+  const { initialSecondary, whileInView, transition } = useContext(AnimateContext);
+
   return (
     <motion.div
-      initial={{ opacity: 0, y: '200px' }}
-      whileInView={{ opacity: 1, y: '0' }}
-      transition={{ duration: 1 }}
+      initial={initialSecondary}
+      whileInView={whileInView}
+      transition={transition}
       className="col-lg-6"
     >
       <div className="certificate">

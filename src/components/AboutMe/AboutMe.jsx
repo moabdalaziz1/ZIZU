@@ -2,16 +2,19 @@ import './AboutMe.scss';
 import { SocialMedia } from '../index';
 import Typewriter from 'typewriter-effect';
 import { motion } from 'framer-motion';
+import { AnimateContext } from '../../Contexts/LoadMoreContext';
+import { useContext } from 'react';
 
 const AboutMe = () => {
 
   let myExperience = new Date().getFullYear() - 2021;
+  const {initial, whileInView, transition} = useContext(AnimateContext);
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: '-200px' }}
-      whileInView={{ opacity: 1, y: '0' }}
-      transition={{ duration: 1 }}
+      initial={initial}
+      whileInView={whileInView}
+      transition={transition}
       className='about-me'
     >
       <div className='my-photo'></div>
