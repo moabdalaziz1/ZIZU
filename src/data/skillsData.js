@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3, FaSass, FaBootstrap, FaReact, FaGitAlt } from 'react-icons/fa';
-import { SiJavascript , SiWebpack} from 'react-icons/si';
+import { SiJavascript , SiWebpack, SiTailwindcss} from 'react-icons/si';
 
 
 const skills = [
@@ -35,18 +35,24 @@ const skills = [
   },
   {
     id: 6,
+    skill: 'Tailwind.css',
+    colorClass: 'tailwind',
+    skillIcon: <SiTailwindcss />,
+  },
+  {
+    id: 7,
     skill: 'Webpack',
     colorClass: 'webpack',
     skillIcon: <SiWebpack />,
   },
   {
-    id: 7,
+    id: 8,
     skill: 'React.js',
     colorClass: 'react',
     skillIcon: <FaReact />,
   },
   {
-    id: 8,
+    id: 9,
     skill: 'Git',
     colorClass: 'git',
     skillIcon: <FaGitAlt />,

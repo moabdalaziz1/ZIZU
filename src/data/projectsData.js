@@ -4,10 +4,22 @@ import youtuby from '../assets/images/projects/youtuby.PNG';
 import agency from '../assets/images/projects/agency.PNG';
 import mobileApp from '../assets/images/projects/mobile-app.PNG';
 import product from '../assets/images/projects/product.PNG';
+import modernBank from '../assets/images/projects/bank.PNG';
 
 const projectsData = [
   {
     id: 1,
+    title: 'modern bank', 
+    coverImg: modernBank,
+    usedSkills: [
+      'React.js',
+      'Tailwind.css'
+    ],
+    pageLink: 'https://modern-bank-11.netlify.app/',
+    githubRepoLink: 'https://github.com/moabdalaziz1/modern_bank_app',
+  },
+  {
+    id: 3,
     title: 'company website', 
     coverImg: company,
     usedSkills: [
@@ -18,10 +30,10 @@ const projectsData = [
       'Webpack'
     ],
     pageLink: 'https://company-website11.netlify.app/',
-    githubRepoLink: 'https://github.com/moabdalaziz1/moabdalaziz1.github.io',
+    githubRepoLink: 'https://github.com/moabdalaziz1/The-Company-Project',
   },
   {
-    id: 2,
+    id: 4,
     title: 'ecommerce', 
     coverImg: ecommerce,
     usedSkills: [
@@ -35,7 +47,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/e-commerce',
   },
   {
-    id: 3,
+    id: 5,
     title: 'youtuby', 
     coverImg: youtuby,
     usedSkills: [
@@ -48,7 +60,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/Youtuby',
   },
   {
-    id: 4,
+    id: 6,
     title: 'LP agency', 
     coverImg: agency,
     usedSkills: [
@@ -61,7 +73,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/Company-Page',
   },
   {
-    id: 5,
+    id: 7,
     title: 'LP mobile app', 
     coverImg: mobileApp,
     usedSkills: [
@@ -74,7 +86,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/Mobile-App-Page',
   },
   {
-    id: 6,
+    id: 8,
     title: 'LP product', 
     coverImg: product,
     usedSkills: [
