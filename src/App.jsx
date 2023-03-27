@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
 import './App.scss';
+import { useState, useEffect } from 'react';
 import { UpButton, Navbar, Loader } from './components/index';
 import { Header, Certificates,Skills, Portfolio, Contact } from './sections/index';
 import { motion, useScroll, useSpring } from "framer-motion";
@@ -28,18 +28,18 @@ const App = () => {
   }
 
   // For The Loader.
-  const [isLoading, setIsLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
-    window.addEventListener('load', () => setIsLoading(true));
-    return () => {
-      window.removeEventListener('load', () => setIsLoading(true));
-    }
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 2000);
   }, []);
 
   return (
     <>
       {
-        isLoading ? 
+        loading ? <Loader /> : 
           <>
             <motion.div className="progress-bar" style={{ scaleX }} />
             <div className='text-center'>
@@ -55,8 +55,7 @@ const App = () => {
                 </AnimateContext.Provider>
               </LoadMoreContext.Provider>
             </div>
-          </> : 
-          <Loader />
+          </>
       }
     </>
   )

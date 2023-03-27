@@ -4,11 +4,8 @@
 
 $color-background: #eaecfa;
 
-body {
-  background: $color-background;
-}
-
 .loader {
+  background: $color-background;
   width: 250px;
   height: 50px;
   line-height: 50px;
