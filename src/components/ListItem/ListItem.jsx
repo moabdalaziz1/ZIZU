@@ -1,11 +1,11 @@
 import './ListItem.scss';
 
-const ListItem = ({ listClass, linkHref, linkContent }) => {
+const ListItem = ({ item }) => {
   return (
     <>
-      <li className={listClass}>
-        <a className="nav-link" href={`${linkHref}`}>
-          {linkContent}
+      <li className={item.listClass}>
+        <a className={`nav-link ${item.activeClass}`} href={`${item.linkHref}`}>
+          {item.linkContent}
         </a>
       </li>
     </>

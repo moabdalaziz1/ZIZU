@@ -1,7 +1,7 @@
 import './Project.scss';
 import { MainButton, ProjectEye } from '../../components/index';
 import { motion } from 'framer-motion';
-import { AnimateContext } from '../../Contexts/LoadMoreContext';
+import { AnimateContext } from '../../Contexts/Context';
 import { useContext } from 'react';
 
 const Project = ({ item }) => {

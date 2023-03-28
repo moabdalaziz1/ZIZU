@@ -1,6 +1,5 @@
-import { useState, useEffect } from 'react';
 import './Navbar.scss';
-
+import { useState, useEffect } from 'react';
 import { NavItems, Sidebar } from '../index';
 
 const Navbar = () => {
@@ -65,11 +64,11 @@ const Navbar = () => {
           }`
         }
       >
-        <div className="container-fluid justify-content-md-center">
+        <div className="container-fluid justify-content-md-center justify-content-end">
           {
-            window.innerWidth >= 768 ?
-            <NavItems handleClick={scrollingToTargetSection} /> :
-            <Sidebar  handleClick={scrollingToTargetSection} />
+            window.innerWidth >= 768 ? 
+              <NavItems handleClick={scrollingToTargetSection} /> :
+              <Sidebar  handleClick={scrollingToTargetSection} />
           }
         </div>
       </nav>

@@ -11,15 +11,13 @@ const NavItems = ({ handleClick }) => {
         { 
           listItemData.map((item) => (
             <ListItem 
-              key={item.id} 
-              listClass={item.listClass} 
-              linkHref={item.linkHref} 
-              linkContent={item.linkContent} 
+              key={item.id}
+              item={item}
             />
           ))
         }
       </ul>
-  </div>
+    </div>
   )
 }
 

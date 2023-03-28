@@ -2,7 +2,7 @@ import './Certificate.scss';
 import { MainButton } from '../../components/index';
 import { BiLinkExternal } from 'react-icons/bi';
 import { motion } from 'framer-motion';
-import { AnimateContext } from '../../Contexts/LoadMoreContext';
+import { AnimateContext } from '../../Contexts/Context';
 import { useContext } from 'react';
 
 const Certificate = ({ item }) => {

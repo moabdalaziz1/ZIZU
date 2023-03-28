@@ -1,6 +1,7 @@
-import { useState } from 'react';
 import './Sidebar.scss';
-import { FaAlignJustify, FaWindowClose } from 'react-icons/fa';
+import { useState } from 'react';
+import { AiOutlineClose } from 'react-icons/ai';
+import { BiMenuAltRight } from 'react-icons/bi';
 
 import { ListItem } from '../index';
 import listItemData from '../../data/listItemData';
@@ -16,7 +17,7 @@ const Sidebar = ({ handleClick }) => {
     <div className='sidebar-hero'>
       <button className="navbar-toggler" type="button" onClick={toggle}>
         <span className='collapse-icon'>
-          {isClicked ? <FaAlignJustify /> : <FaWindowClose />}
+          {isClicked ? <BiMenuAltRight /> : <AiOutlineClose />}
         </span>
       </button>
       <div className={`sidebar ${isClicked ? 'hide' : 'show' }`}>
@@ -24,9 +25,8 @@ const Sidebar = ({ handleClick }) => {
           { 
             listItemData.map((item) => (
               <ListItem 
-                key={item.id} 
-                linkHref={item.linkHref} 
-                linkContent={item.linkContent} 
+                key={item.id}
+                item={item}
               />
             ))
           }

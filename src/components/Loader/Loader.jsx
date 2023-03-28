@@ -3,7 +3,7 @@ import './Loader.scss'
 const PreLoad = () => {
   return (
     <div className='loader'>
-      Loading...
+      <span>zizu</span>
     </div>
   )
 }

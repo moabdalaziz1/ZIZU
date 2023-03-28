@@ -3,6 +3,7 @@ const listItemData = [
     id: 1,
     listClass: 'nav-item',
     linkHref: 'aboutMe',
+    activeClass: 'active',
     linkContent: 'about me'
   },
   {

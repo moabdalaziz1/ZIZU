@@ -5,7 +5,7 @@
 $color-background: #eaecfa;
 
 .loader {
-  background: $color-background;
+  // background: $color-background;
   width: 250px;
   height: 50px;
   line-height: 50px;
@@ -17,8 +17,16 @@ $color-background: #eaecfa;
   font-family: 'Poppins', arial, sans-serif;
   text-transform: uppercase;
   font-weight: 900;
+  font-size: 28px;
   color: $main-color;
-  letter-spacing: 0.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  span {
+    animation: move .7s infinite alternate ease-in-out;
+  }
   
   &::before, &::after {
     content: "";
@@ -43,4 +51,9 @@ $color-background: #eaecfa;
   0% { left: 0; height: 30px; width: 15px }
   50% { height: 8px; width: 40px }
   100% { left: 235px; height: 30px; width: 15px}
+}
+
+@keyframes move {
+  0% { scale: 1 }
+  100% { scale: 1.2 }
 }

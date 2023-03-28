@@ -4,7 +4,7 @@ import { SectionTitle, Certificate, LoadButton } from '../../components/index';
 import { FaCertificate } from 'react-icons/fa';
 
 import certificateData from '../../data/certificatesData';
-import { LoadMoreContext } from '../../Contexts/LoadMoreContext';
+import { LoadMoreContext } from '../../Contexts/Context';
 
 
 const Certificates = () => {

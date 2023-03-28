@@ -4,7 +4,7 @@ import { FaThLarge } from 'react-icons/fa'
 import { SectionTitle, Project, LoadButton } from '../../components/index';
 
 import projectsData from '../../data/projectsData';
-import { LoadMoreContext } from '../../Contexts/LoadMoreContext';
+import { LoadMoreContext } from '../../Contexts/Context';
 
 const Portfolio = () => {
 

@@ -2,7 +2,7 @@ import './AboutMe.scss';
 import { SocialMedia } from '../index';
 import Typewriter from 'typewriter-effect';
 import { motion } from 'framer-motion';
-import { AnimateContext } from '../../Contexts/LoadMoreContext';
+import { AnimateContext } from '../../Contexts/Context';
 import { useContext } from 'react';
 
 const AboutMe = () => {

@@ -3,51 +3,54 @@
 
 
 /* For The Sidebar Functionality */
-.hide { top: -250px } .show { top: 0px }
+.hide { 
+  transform: translateX(180px);
+  opacity: 0; 
+} 
+.show { 
+  transform: translateX(0);
+  opacity: 1;
+}
 
 .sidebar-hero {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
   margin-top: 0.5rem;
   /* The Buttons Styles */
   .navbar-toggler {
     border: none;
-    transition: $transition;
-    height: 0;
-    &:hover {
-      transform: scale(1.2, 1.2);
-    }
+    padding-right: 0;
+    margin-bottom: 5px;
     &:focus {
       box-shadow: none;
     }
     .collapse-icon {
+      display: flex;
+      color: $main-color;
       background-color: $color-white;
-      color: $color-black;
       font-size: 30px;
       box-shadow: $main-box-shadow;
-      padding: 0.5rem;
-      line-height: 60px;
-      @include radius-style;
+      padding: 10px;
+      border-radius: $border-radius-primary;
     }
   }
   /* The Sidebar Styles */
   .sidebar {
-    position: relative;
     transition: all 0.5s ease-in-out;
     .navbar-nav {
-      flex-direction: row;
-      flex-wrap: wrap;
+      flex-direction: column;
       background-color: rgba(255, 255, 255, 0.7);
       box-shadow: $main-box-shadow;
-      @include radius-style;
+      border-radius: $border-radius-primary;
       .nav-link {
         color: $color-black;
         font-size: $main-font-size;
         line-height: 40px;
         padding: $main-padding;
         transition: $transition;
-        @include radius-style;
+        border-radius: $border-radius-primary;
         &:hover, &.active {
           color: $color-white;
           background-color: $main-color;

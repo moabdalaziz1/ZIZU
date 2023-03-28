@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { UpButton, Navbar, Loader } from './components/index';
 import { Header, Certificates,Skills, Portfolio, Contact } from './sections/index';
 import { motion, useScroll, useSpring } from "framer-motion";
-import { LoadMoreContext, AnimateContext } from './Contexts/LoadMoreContext';
+import { LoadMoreContext, AnimateContext } from './Contexts/Context';
 
 const App = () => {
 
