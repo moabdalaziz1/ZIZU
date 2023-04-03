@@ -27,10 +27,9 @@ const Project = ({ item }) => {
           className='project-img-link'
         >
           <ProjectEye />
-          <img src={item.coverImg} className='card-img-top project-img' alt={item.title} />
+          <img src={item.coverImg} className='card-img-top' alt={item.title} />
         </a>  
         <div className="project-skills p-3">
-          <h5>developed using:</h5>
           <div className="skills-list">
             {
               item.usedSkills.map((item, index) => (

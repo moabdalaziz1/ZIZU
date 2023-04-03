@@ -12,10 +12,8 @@
   }
 }
 .project-name {
-  font-family: 'ProstoOne';
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
-  background-color: $color-bg;
 }
 .project-img-link {
   position: relative;
@@ -23,22 +21,11 @@
   justify-content: center;
   align-items: center;
 }
-.project-img {
-  box-shadow: $second-box-shadow;
-  transition: $transition;
-}
 .project-skills {
   background-color: $color-bg;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  h5 {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
   .skills-list {
-    display: flex;
-    gap: 10px;
+    display: flex; 
+    gap: 7px;
     flex-wrap: wrap;
     text-transform: none;
     span {

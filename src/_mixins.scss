@@ -1,4 +1,3 @@
 @mixin radius-style {
-  border-top-left-radius: $border-radius-secondary;
-  border-bottom-right-radius: $border-radius-secondary;
+  border-radius: $border-radius-primary
 }

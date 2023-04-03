@@ -3,6 +3,11 @@
 
 .navbar {
   transition: $transition;
+  a.nav-link {
+    &:hover, &.active {
+      font-weight: bold;
+    }
+  }
 }
 /* For Changing The Navbar Styles When The scrollbar passes 200px */
 .noTransparrent {
