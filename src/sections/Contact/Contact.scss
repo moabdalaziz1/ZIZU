@@ -13,6 +13,9 @@
   align-items: center;
   .section-title {
     color: $color-white;
+    .line {
+      background-color: $color-white;
+    }
   }
   .social-media {
     margin: 2rem auto 0 auto;
@@ -24,8 +27,6 @@
 footer {
   color: $color-white;
   font-size: 16px;
-  font-weight: bold;
-  font-family: 'ProstoOne';
   margin-top: 2rem;
 }
 

@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   gap: 1rem;
   padding: 1rem;
+  @include radius-style;
 }
 
 .certificate-logo {
@@ -36,15 +37,8 @@
 
 .certificate-title {
   margin: 0;
-  a {
-    transition: $transition;
-    text-decoration: none;
-    color: $color-black;
-    &:hover, &:active, &:focus {
-      color: blue;
-      text-decoration: underline;
-    }
-  }
+  color: $color-black;
+  font-weight: bold;
 }
 
 .certificate-btn {

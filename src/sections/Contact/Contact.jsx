@@ -1,6 +1,5 @@
 import './Contact.scss';
 import { MdEmail } from 'react-icons/md';
-import { FaCopyright } from 'react-icons/fa'
 import { SectionTitle, Form, SocialMedia } from '../../components/index';
 
 const Contact = () => {
@@ -13,7 +12,7 @@ const Contact = () => {
         <Form />
         <SocialMedia />
         <footer>
-          all rights reserved {date} <span><FaCopyright /></span>
+          copyright {date} &copy; - mohamed abdalaziz
         </footer>
       </div>
     </section>

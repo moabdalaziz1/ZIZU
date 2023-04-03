@@ -22,13 +22,7 @@ const Certificate = ({ item }) => {
         </div>
         <div className="certificate-body">
           <h5 className="certificate-title">
-            <a 
-              href={item.url}
-              target='_blank'
-              rel="noreferrer"
-            >
-              {item.title}
-            </a>
+            {item.title}
           </h5>
           <span>provider: {item.provider}</span>
           <span>issued: {item.issued}</span>

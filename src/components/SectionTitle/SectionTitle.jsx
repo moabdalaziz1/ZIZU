@@ -6,7 +6,10 @@ const SectionTitle = ({ icon, title }) => {
       <span className='title-icon'>
         {icon}
       </span>
-      <div>{title}</div>
+      <div className='section-title-text'> 
+        {title}
+        <div className='line'></div>
+      </div>
     </div>
   )
 }
