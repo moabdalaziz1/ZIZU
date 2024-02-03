@@ -29,6 +29,10 @@
 .webpack {color: $webpack}
 .react {color: $react}
 .git {color: $git}
+.icon-img img {
+  width: 40px;
+  height: 40px;
+}
 
 /* ========================= Media Query ========================= */
 @media (max-width: 575px) {

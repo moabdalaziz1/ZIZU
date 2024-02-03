@@ -10,6 +10,12 @@ const Skill = ({ item }) => {
       <span className={`skill-icon ${item.colorClass}`}>
         {item.skillIcon}
       </span>
+      {
+        item.isImg ?
+        <span className='icon-img'>
+          <img src={item.skillIconImg} alt="skill-icon" />
+        </span> : <span></span>
+      }
     </div>
   )
 }

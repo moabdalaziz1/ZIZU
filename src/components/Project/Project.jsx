@@ -37,6 +37,10 @@ const Project = ({ item }) => {
               ))
             }
           </div>
+          <div className='project-Details'> 
+            <p>The Purpose : <span>{item.for}</span></p> 
+            <p>Date Created : <span>{item.date}</span></p> 
+          </div>
         </div>
         <div className="project-btns p-3">
           <MainButton btnLink={item.pageLink}>
