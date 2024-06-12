@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.96392f5b.css",
-    "main.js": "/static/js/main.dd9a7227.js",
+    "main.js": "/static/js/main.6c27cafc.js",
     "static/media/agency.PNG": "/static/media/agency.5aa602bd1358f6b1f1cf.PNG",
     "static/media/mobile-app.PNG": "/static/media/mobile-app.c936c0f4f83abf68661e.PNG",
     "static/media/flight-booking.PNG": "/static/media/flight-booking.108ec7e95cbc4c81eacb.PNG",
@@ -26,10 +26,10 @@
     "static/media/coursera-logo.png": "/static/media/coursera-logo.fab87f5a94f86b50a47a.png",
     "index.html": "/index.html",
     "main.96392f5b.css.map": "/static/css/main.96392f5b.css.map",
-    "main.dd9a7227.js.map": "/static/js/main.dd9a7227.js.map"
+    "main.6c27cafc.js.map": "/static/js/main.6c27cafc.js.map"
   },
   "entrypoints": [
     "static/css/main.96392f5b.css",
-    "static/js/main.dd9a7227.js"
+    "static/js/main.6c27cafc.js"
   ]
 }
