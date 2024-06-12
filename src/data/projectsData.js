@@ -21,10 +21,10 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'bootstrap Project in upwork',
+    title: 'Project Using Bootstrap5',
     coverImg: bootstrap,
     usedSkills: ['HTML', 'CSS3', 'Bootstrap'],
-    for: 'Upwork Client',
+    for: 'Practical Training',
     date: 'May 6, 2023',
     pageLink: 'https://bootstrap-website-11.netlify.app/',
     githubRepoLink: 'https://github.com/moabdalaziz1/Bootstrap-website',
