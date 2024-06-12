@@ -6,7 +6,7 @@ import {
   FaReact,
   FaGitAlt,
 } from 'react-icons/fa';
-import { SiJavascript, SiWebpack, SiTailwindcss } from 'react-icons/si';
+import { SiJavascript, SiWebpack, SiTailwindcss, SiRedux } from 'react-icons/si';
 import materialUi from '../assets/images/material-logo.png';
 
 const skills = [
@@ -74,6 +74,14 @@ const skills = [
   },
   {
     id: 9,
+    skill: 'Redux-Toolkit',
+    colorClass: 'redux',
+    skillIcon: <SiRedux />,
+    isImg: false,
+
+  },
+  {
+    id: 10,
     skill: 'Git',
     colorClass: 'git',
     skillIcon: <FaGitAlt />,
@@ -81,7 +89,7 @@ const skills = [
 
   },
   {
-    id: 10,
+    id: 11,
     skill: 'Material UI',
     // colorClass: 'git',
     // skillIcon: <FaGitAlt />,

@@ -7,10 +7,21 @@ import product from '../assets/images/projects/product.PNG';
 import modernBank from '../assets/images/projects/bank.PNG';
 import bootstrap from '../assets/images/projects/bootstrap.PNG';
 import prayerTimes from '../assets/images/projects/prayer-time.PNG';
+import flightBooking from '../assets/images/projects/flight-booking.PNG';
 
 const projectsData = [
   {
     id: 1,
+    title: 'flight booking',
+    coverImg: flightBooking,
+    usedSkills: ['React.js', 'Tailwind.css', 'Redux-Toolkit'],
+    for: 'Practical Training',
+    date: 'Jun 8, 2024',
+    pageLink: 'https://booking-a-ticket.netlify.app/',
+    githubRepoLink: 'https://github.com/moabdalaziz1/Booking-A-Ticket',
+  },
+  {
+    id: 2,
     title: 'prayer times',
     coverImg: prayerTimes,
     usedSkills: ['React.js', 'MaterialUi'],
@@ -20,7 +31,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/Prayer-Times',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Project Using Bootstrap5',
     coverImg: bootstrap,
     usedSkills: ['HTML', 'CSS3', 'Bootstrap'],
@@ -30,7 +41,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/Bootstrap-website',
   },
   {
-    id: 3,
+    id: 4,
     title: 'modern bank',
     coverImg: modernBank,
     usedSkills: ['React.js', 'Tailwind.css'],
@@ -40,7 +51,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/modern_bank_app',
   },
   {
-    id: 4,
+    id: 5,
     title: 'company website',
     coverImg: company,
     usedSkills: ['HTML5', 'SASS', 'Javascript', 'Bootstrap5', 'Webpack'],
@@ -50,7 +61,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/The-Company-Project',
   },
   {
-    id: 5,
+    id: 6,
     title: 'ecommerce',
     coverImg: ecommerce,
     usedSkills: ['HTML5', 'SASS', 'Javascript', 'Bootstrap5', 'Webpack'],
@@ -60,7 +71,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/e-commerce',
   },
   {
-    id: 6,
+    id: 7,
     title: 'youtuby',
     coverImg: youtuby,
     usedSkills: ['HTML5', 'CSS3', 'Javascript', 'Bootstrap5'],
@@ -70,7 +81,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/Youtuby',
   },
   {
-    id: 7,
+    id: 8,
     title: 'LP agency',
     coverImg: agency,
     usedSkills: ['HTML5', 'CSS3', 'Javascript', 'Bootstrap5'],
@@ -80,7 +91,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/Company-Page',
   },
   {
-    id: 8,
+    id: 9,
     title: 'LP mobile app',
     coverImg: mobileApp,
     usedSkills: ['HTML5', 'CSS3', 'Javascript', 'Bootstrap5'],
@@ -90,7 +101,7 @@ const projectsData = [
     githubRepoLink: 'https://github.com/moabdalaziz1/Mobile-App-Page',
   },
   {
-    id: 9,
+    id: 10,
     title: 'LP product',
     coverImg: product,
     usedSkills: ['HTML5', 'CSS3', 'Javascript', 'Bootstrap5'],

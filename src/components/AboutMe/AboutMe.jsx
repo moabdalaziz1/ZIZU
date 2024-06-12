@@ -32,7 +32,7 @@ const AboutMe = () => {
         <Typewriter
           onInit={(typewriter) => {
             typewriter.pauseFor(3100)
-            .typeString("front end web developer")
+            .typeString("front end developer")
             .start()
           }}
         />
