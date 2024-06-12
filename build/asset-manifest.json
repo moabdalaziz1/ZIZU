@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96392f5b.css",
+    "main.js": "/static/js/main.795c6421.js",
+    "static/media/agency.PNG": "/static/media/agency.5aa602bd1358f6b1f1cf.PNG",
+    "static/media/mobile-app.PNG": "/static/media/mobile-app.c936c0f4f83abf68661e.PNG",
+    "static/media/flight-booking.PNG": "/static/media/flight-booking.108ec7e95cbc4c81eacb.PNG",
+    "static/media/product.PNG": "/static/media/product.80f6cfebc3789d02b046.PNG",
+    "static/media/bg3.jpg": "/static/media/bg3.5bf267730bc114e2a51f.jpg",
+    "static/media/bootstrap.PNG": "/static/media/bootstrap.aeeab0e12cf09787fc2c.PNG",
+    "static/media/prayer-time.PNG": "/static/media/prayer-time.7a8081633169328d3f7f.PNG",
+    "static/media/react-basics.png": "/static/media/react-basics.37734b58f06826d78300.png",
+    "static/media/youtuby.PNG": "/static/media/youtuby.dc48682e794b1a428aa6.PNG",
+    "static/media/company.PNG": "/static/media/company.40f4d2b2b9160e548e22.PNG",
+    "static/media/advaned-react.png": "/static/media/advaned-react.86cb82ef1ed879c15d10.png",
+    "static/media/bg.jpg": "/static/media/bg.2677f9a58099bc79a9c8.jpg",
+    "static/media/bank.PNG": "/static/media/bank.066571fc969932b89448.PNG",
+    "static/media/version-control.png": "/static/media/version-control.df8930117debd522ce82.png",
+    "static/media/Lobster-Regular.ttf": "/static/media/Lobster-Regular.03c38496322925fec242.ttf",
+    "static/media/ecommerce.PNG": "/static/media/ecommerce.bd2cdfce2ae7651314b1.PNG",
+    "static/media/zizu2.jpg": "/static/media/zizu2.3a201b6abb9de2440ecd.jpg",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/CV.pdf": "/static/media/CV.b43a2da8454f2d5a4a14.pdf",
+    "static/media/hsoub.png": "/static/media/hsoub.afef6e9e1723c590c0b4.png",
+    "static/media/ProstoOne-Regular.ttf": "/static/media/ProstoOne-Regular.677db36ec3f39ac20a40.ttf",
+    "static/media/coursera-logo.png": "/static/media/coursera-logo.fab87f5a94f86b50a47a.png",
+    "index.html": "/index.html",
+    "main.96392f5b.css.map": "/static/css/main.96392f5b.css.map",
+    "main.795c6421.js.map": "/static/js/main.795c6421.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96392f5b.css",
+    "static/js/main.795c6421.js"
+  ]
+}
