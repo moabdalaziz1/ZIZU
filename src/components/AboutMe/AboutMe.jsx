@@ -31,7 +31,7 @@ const AboutMe = () => {
       <div className="job-title">
         <Typewriter
           onInit={(typewriter) => {
-            typewriter.pauseFor(3100)
+            typewriter.pauseFor(500)
             .typeString("front end developer")
             .start()
           }}
