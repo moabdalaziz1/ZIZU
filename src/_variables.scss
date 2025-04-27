@@ -14,7 +14,7 @@ $color-mute: rgba(0, 0, 0, 0.6);
 $load-color: #5e1916;
 
 $github: #171515;
-$twitter: #1DA1F2;
+$twitter: #1da1f2;
 $linkedIn: #0072b1;
 $facebook: #3b5998;
 $instagram: #bc2a8d;
@@ -22,16 +22,19 @@ $instagram: #bc2a8d;
 $html: #f06529;
 $css: #2965f1;
 $javascript: #f7df1e;
-$sass: #CD6799;
+$typescript: #007acc;
+$sass: #cd6799;
 $bootstrap: #563d7c;
 $tailwind: #38bdf8;
+$nextjs: #000000;
 $webpack: #1c78c0;
 $react: #61dafb;
 $redux: #ba8fff;
 $git: #f34f29;
 
-$main-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-$second-box-shadow:rgba(0, 0, 0, 0.16) 0px 1px 4px;
+$main-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+$second-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
 $main-font-size: 18px;
 
@@ -42,5 +45,3 @@ $border-radius-secondary: calc($border-radius-primary * 2);
 $border-circle: 50%;
 
 $transition: all 0.3s ease-in-out;
-
-

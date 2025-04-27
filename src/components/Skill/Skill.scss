@@ -1,10 +1,10 @@
-@import '../../variables';
-@import '../../mixins';
+@import "../../variables";
+@import "../../mixins";
 
 .skill {
   background-color: $color-white;
   height: 50px;
-  padding: 0 1.5rem; 
+  padding: 0 1.5rem;
   font-size: 20px;
   font-weight: bold;
   box-shadow: $main-box-shadow;
@@ -12,27 +12,52 @@
   display: flex;
   align-items: center;
   @include radius-style;
-
 }
 
 .skill-icon {
   display: flex;
-  font-size: 30px
+  font-size: 30px;
 }
 
-.html {color: $html}
-.css {color: $css}
-.javascript {color: $javascript}
-.sass {color: $sass}
-.bootstrap {color: $bootstrap}
-.tailwind {color: $tailwind}
-.webpack {color: $webpack}
-.react {color: $react}
-.redux {color: $redux}
-.git {color: $git}
+.html {
+  color: $html;
+}
+.css {
+  color: $css;
+}
+.javascript {
+  color: $javascript;
+}
+.typescript {
+  color: $typescript;
+}
+.sass {
+  color: $sass;
+}
+.bootstrap {
+  color: $bootstrap;
+}
+.tailwind {
+  color: $tailwind;
+}
+.webpack {
+  color: $webpack;
+}
+.react {
+  color: $react;
+}
+.nextjs {
+  color: $nextjs;
+}
+.redux {
+  color: $redux;
+}
+.git {
+  color: $git;
+}
 .icon-img img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 /* ========================= Media Query ========================= */
