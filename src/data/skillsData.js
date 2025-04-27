@@ -20,14 +20,14 @@ import nextjs from "../assets/images/nextjs-logo.png";
 
 const skills = [
   {
-    id: 9,
+    id: 1,
     skill: "React.js",
     colorClass: "react",
     skillIcon: <FaReact />,
     isImg: false,
   },
   {
-    id: 10,
+    id: 2,
     skill: "Vue.js",
     // colorClass: "react",
     // skillIcon: <FaReact />,
@@ -35,7 +35,7 @@ const skills = [
     skillIconImg: vue,
   },
   {
-    id: 10,
+    id: 3,
     skill: "Next.js",
     // colorClass: "react",
     // skillIcon: <FaReact />,
@@ -43,28 +43,28 @@ const skills = [
     skillIconImg: nextjs,
   },
   {
-    id: 3,
+    id: 4,
     skill: "Javascript",
     colorClass: "javascript",
     skillIcon: <SiJavascript />,
     isImg: false,
   },
   {
-    id: 4,
+    id: 5,
     skill: "Typescript",
     colorClass: "typescript",
     skillIcon: <SiTypescript />,
     isImg: false,
   },
   {
-    id: 11,
+    id: 6,
     skill: "Redux-Toolkit",
     colorClass: "redux",
     skillIcon: <SiRedux />,
     isImg: false,
   },
   {
-    id: 12,
+    id: 7,
     skill: "Vuex",
     // colorClass: "react",
     // skillIcon: <FaReact />,
@@ -72,7 +72,7 @@ const skills = [
     skillIconImg: vue,
   },
   {
-    id: 1,
+    id: 8,
     skill: "HTML5",
     colorClass: "html",
     skillIcon: <FaHtml5 />,
@@ -80,35 +80,36 @@ const skills = [
   },
 
   {
-    id: 2,
+    id: 9,
     skill: "CSS3",
     colorClass: "css",
     skillIcon: <FaCss3 />,
+    isImg: false,
   },
 
   {
-    id: 5,
+    id: 10,
     skill: "SASS",
     colorClass: "sass",
     skillIcon: <FaSass />,
     isImg: false,
   },
   {
-    id: 6,
+    id: 11,
     skill: "Bootstrap",
     colorClass: "bootstrap",
     skillIcon: <FaBootstrap />,
     isImg: false,
   },
   {
-    id: 7,
+    id: 12,
     skill: "Tailwind.css",
     colorClass: "tailwind",
     skillIcon: <SiTailwindcss />,
     isImg: false,
   },
   {
-    id: 14,
+    id: 13,
     skill: "Material UI",
     // colorClass: 'git',
     // skillIcon: <FaGitAlt />,
@@ -116,14 +117,14 @@ const skills = [
     skillIconImg: materialUi,
   },
   {
-    id: 8,
+    id: 14,
     skill: "Webpack",
     colorClass: "webpack",
     skillIcon: <SiWebpack />,
     isImg: false,
   },
   {
-    id: 13,
+    id: 15,
     skill: "Git",
     colorClass: "git",
     skillIcon: <FaGitAlt />,

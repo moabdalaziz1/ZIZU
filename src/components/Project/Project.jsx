@@ -42,7 +42,7 @@ const Project = ({ item }) => {
           </div>
         </div>
         <div className="project-btns p-3">
-          <MainButton btnLink={item.pageLink}>View Project</MainButton>
+          <MainButton btnLink={item.pageLink}>Demo</MainButton>
           <MainButton btnLink={item.githubRepoLink}>Source Code</MainButton>
         </div>
       </div>
