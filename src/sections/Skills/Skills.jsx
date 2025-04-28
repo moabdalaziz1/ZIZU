@@ -7,7 +7,7 @@ import skills from "../../data/skillsData";
 const Skills = () => {
   return (
     <section className="container skills py-5 main" id="skills">
-      <SectionTitle title="skills" icon={<FaBrain />} />
+      <SectionTitle title="Technologies" icon={<FaBrain />} />
       <div className="skills-items">
         {skills.map((item) => (
           <Skill key={item.id} item={item} />
