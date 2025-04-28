@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c04e7f14.css",
-    "main.js": "/static/js/main.a4cb7df6.js",
+    "main.js": "/static/js/main.c42f81c0.js",
     "static/media/agency.PNG": "/static/media/agency.5aa602bd1358f6b1f1cf.PNG",
     "static/media/mobile-app.PNG": "/static/media/mobile-app.c936c0f4f83abf68661e.PNG",
     "static/media/flight-booking.PNG": "/static/media/flight-booking.108ec7e95cbc4c81eacb.PNG",
@@ -27,10 +27,10 @@
     "static/media/vue-logo.webp": "/static/media/vue-logo.3342573514ccac77fae2.webp",
     "index.html": "/index.html",
     "main.c04e7f14.css.map": "/static/css/main.c04e7f14.css.map",
-    "main.a4cb7df6.js.map": "/static/js/main.a4cb7df6.js.map"
+    "main.c42f81c0.js.map": "/static/js/main.c42f81c0.js.map"
   },
   "entrypoints": [
     "static/css/main.c04e7f14.css",
-    "static/js/main.a4cb7df6.js"
+    "static/js/main.c42f81c0.js"
   ]
 }
